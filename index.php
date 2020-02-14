@@ -11,7 +11,7 @@
 		$arrOfPlayerObj = array();
 		
 		$sql = "SELECT * FROM players";
-		$con=mysqli_connect(db_host,db_user,db_password,"fantasyLeague");
+		$con=mysqli_connect(db_host,db_user,db_password,db_name);
 		if (mysqli_connect_errno()) {
   			echo "Failed to connect to MySQL: " . mysqli_connect_error();
  		}
@@ -49,7 +49,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
- 		<link rel = "stylesheet" type = "text/css" href = "/fantasyLeague/css/stylesheet.css">
+ 		<link rel = "stylesheet" type = "text/css" href = "/css/stylesheet.css">
 	</head>
  	<body>
  		<div class = "masthead">
