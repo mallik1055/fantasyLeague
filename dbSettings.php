@@ -1,5 +1,10 @@
 <?php
-	define("db_host","localhost");
-	define("db_user","root");
-	define("db_password","");	
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+$server = $url["host"];
+$username = $url["user"];
+$password = $url["pass"];
+$db = substr($url["path"], 1);
+
+$conn = new mysqli($server, $username, $password, $db);
 ?>
