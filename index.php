@@ -48,7 +48,7 @@
 ?>
 <html>
 	<head>
-		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
  		<link rel = "stylesheet" type = "text/css" href = "/fantasyLeague/css/stylesheet.css">
 	</head>
  	<body>
@@ -106,7 +106,7 @@
  			</span>
 
  		</div>
- 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
  		<script src = "/fantasyLeague/scripts/script.js"></script>
  	<script>
  		
