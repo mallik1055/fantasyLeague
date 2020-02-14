@@ -107,7 +107,7 @@
 
  		</div>
  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
- 		<script src = "/fantasyLeague/scripts/script.js"></script>
+ 		<script src = "/scripts/script.js"></script>
  	<script>
  		
  		var playerList = <?php
@@ -150,7 +150,7 @@
 				else {// code for IE6, IE5
 					xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 				}
-				xmlhttp.open("POST","/fantasyLeague/updateTeam.php",true);
+				xmlhttp.open("POST","/updateTeam.php",true);
 				xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 				xmlhttp.onreadystatechange=function(){
 					if (xmlhttp.readyState==4 && xmlhttp.status==200){
@@ -187,7 +187,7 @@
 				else {// code for IE6, IE5
 					xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 				}
-				xmlhttp.open("POST","/fantasyLeague/updateTeam.php",true);
+				xmlhttp.open("POST","/updateTeam.php",true);
 				xmlhttp.onreadystatechange=function(){
 					if (xmlhttp.readyState==4 && xmlhttp.status==200){
 				    	document.getElementById("teamname-submit").innerHTML="Edit";
