@@ -22,7 +22,7 @@
 		public function getUserInfo(){
 				
 			$sql = "SELECT * FROM user_lines INNER JOIN user_team ON user_lines.user_id = user_team.user_id WHERE user_lines.user_id = $this->userId ";
-			$con=mysqli_connect(db_host,db_user,db_password,"fantasyLeague");
+			$con=mysqli_connect(db_host,db_user,db_password,db_name);
 			$result=mysqli_query($con,$sql);
 			if (mysqli_connect_errno()) {
 	  			echo "Failed to connect to MySQL: " . mysqli_connect_error();
