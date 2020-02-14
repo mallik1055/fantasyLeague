@@ -1,6 +1,6 @@
 # fantasyLeague
 
-Simulation of IPL Fantasy League game:
+Simulation of IPL Fantasy League game. Done as part of the final project for a Web Development Course in Undergrad.
 
 Each player has a price associated with him and a characteristic like Batsman/Bowler/All-rounder/WicketKeeper. 
 When you log in, you get to create your fantasy team. Choose your team composition and a team name. You are given an arbitrary amount of 100 million dollars to create your team.
