@@ -108,7 +108,7 @@ function addToTeamBox(playerObj){
 	var removePlayer = document.createElement('img');
 	removePlayer.id = "close";
 	removePlayer.style.float = "right";
-	removePlayer.setAttribute("src","/fantasyLeague/images/remove.png");
+	removePlayer.setAttribute("src","/images/remove.png");
 	node.appendChild(removePlayer);
 	
 	document.getElementById("team-box").appendChild(node);
