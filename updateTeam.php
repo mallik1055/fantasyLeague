@@ -6,7 +6,7 @@
     require "dbSettings.php";
 
       
-    $con=mysqli_connect(db_host,db_user,db_password,"fantasyLeague");
+    $con=mysqli_connect(db_host,db_user,db_password,db_name);
     if(mysqli_connect_errno()){
        echo "Could not connect to DB";
        return;
